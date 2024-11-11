@@ -873,7 +873,7 @@
                     if(first_name=="" && middle_name=="" && last_name==""){
                         return data
                     }
-                    const apiUrl = `https://portal.voterapp.in/search_voter?first_name=${first_name}&middle_name=${middle_name}&last_name=${last_name}&page=${page}`;
+                    const apiUrl = `https://mk.thelcsindia.in/search_voter?first_name=${first_name}&middle_name=${middle_name}&last_name=${last_name}&page=${page}`;
                 debugger;
                     const response = await fetch(apiUrl);
                     data = await response.json();
