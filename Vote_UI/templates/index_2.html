@@ -82,7 +82,8 @@
 
     <body>
         <div class="header-image">   <img class="header-image" src="{{url_for('static',filename='/images/banner.jpg')}}" alt="image1"> </div>
-                      
+                      <div class="container-one" > 
+                         <div class="acname">123-नाशिक पूर्व</div>
         <div class="form-container">
 
             <form id="searchForm">
@@ -109,7 +110,7 @@
             </div>
             </form>
           </div>
-        
+                      </div>
         <script>
             function handleChange(event){
                 console.log(event.target.value)
@@ -1013,14 +1014,25 @@
                     display:block;
 
                 }
-                 .acname
+              .acname
                   {
-                  width:500px;
-                           height:50px;
+                 
+                          padding:20px;
                            background-color:#fd5c63;
                            text-align: center;
                             border-top-left-radius: 8px;
                   border-top-right-radius: 8px;
+                  }
+                 .container-one
+                  {
+                    margin-top:20px;
+                 margin-left: auto;
+                 margin-right: auto;
+                    width:500px;
+                           
+                           
+                           text-align: center;
+                           
                   }
                  @media (max-width: 768px) {
                 .header-image
