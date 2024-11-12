@@ -82,7 +82,10 @@
 
     <body>
         <div class="header-image">   <img class="header-image" src="{{url_for('static',filename='/images/banner.jpg')}}" alt="image1"> </div>
+<div> आपले नाव मतदान यादीत शोधण्यासाठी - 1. विधानसभा निवडा 2. पहिल्या नावाची 3. अक्षरे - मधल्या नावाची 3 अक्षरे - आडनावाची 3 अक्षरे टाइप करा. 3. आपली मतदान स्लिप SMS किंवा WhatsApp द्वारे मिळवा</div>
 
+             <div class="acname">  123-नाशिक पूर्व;</div> 
+                      
         <div class="form-container">
 
             <form id="searchForm">
@@ -1011,12 +1014,25 @@
               margin-left:auto;
                     margin-right:auto;
                     display:block;
+
                 }
-            @media (max-width: 768px) {
+                 .acname
+                  {
+                           max-width:500px;
+                           background-color:#fd5c63;
+                           text-align: center;
+                            border-top-left-radius: 8px;
+                  border-top-right-radius: 8px;
+                  }
+                 @media (max-width: 768px) {
                 .header-image
                 {
                     width: 100%;
                 }
+                          .ac-name
+                          {
+                          width:90%;
+                          }
                 .card {
                     width: calc(100% - 40px);
                     /* 2 cards per row */
@@ -1028,6 +1044,11 @@
                 {
                     width: 100%;
                 }
+                      .ac-name
+                          {
+                          width:90%;
+                          }
+                     
                 .card {
                     width: calc(100% - 40px);
                     /* 1 card per row */
