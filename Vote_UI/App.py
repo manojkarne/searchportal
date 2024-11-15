@@ -11,7 +11,7 @@ CORS(app)
 
 # SQLite connection
 conn = sqlitecloud.connect('sqlitecloud://ct7cilkkhz.sqlite.cloud:8860/VoterappDB_2?apikey=SQMenMaDiDJkgkkLxaJ7Z5JLBuzeZqkf1ek1Y3JUS0c')
-create_conn = sqlitecloud.connect('sqlitecloud://chasuqamnk.sqlite.cloud:8860/userdata_123?apikey=0IZOcX8va89btO7M19jVGeWWfKsh83bx8BJLf3GLGh0')
+create_conn = sqlitecloud.connect('sqlitecloud://cpol6ybmhz.sqlite.cloud:8860/VoterappDB_Niphad121.db?apikey=SBOAo7jBclv5Tr2d716pPDHfRQSpPbWpr3K7si3HAf0')
 
 # conn.row_factory = sqlite3.Row
 @app.route('/search_voter', methods=['GET'])
